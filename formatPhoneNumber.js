@@ -23,7 +23,7 @@ function formatPhoneNumber() {
   ranges.forEach(range => {
     const values = range.getValues();
 
-    const newValues = values.map(row => 
+    const newValues = values.map(row =>
       row.map(cell => {
         if (typeof cell === 'string' && cell.trim() !== '') {
           const cleaned = cell.replace(regex, '');

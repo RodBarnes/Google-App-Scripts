@@ -1,6 +1,8 @@
 # General
 These functions are written to be included in a Google App Scripts module.  This is accessible from Sheets via the "Extension" menu.  Paste in the code from each module; then save.
 
+They are specifically designed to work in a Google Sheet where columns A-H contain: Title, First Name, Last Name, Zone, Stake, Release, Phone, Email.
+
 ## Custom-Action
 Adds a menu option "Custom Actions" with these three entries:
 
